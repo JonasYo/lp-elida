@@ -6,6 +6,8 @@
     "plugin:prettier/recommended"
   ],
   "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
     "prettier/prettier": [
       "error",
       {
@@ -38,7 +40,8 @@
         "project": "./tsconfig.json"
       },
       "rules": {
-        "react/no-unescaped-entities": 0,
+        "react/no-unescaped-entities": "off",
+        "@next/next/no-page-custom-font": "off",
         "prettier/prettier": [
           "error",
           {
