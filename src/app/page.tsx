@@ -180,7 +180,7 @@ const Index = () => {
             </div>
 
             <Image
-              src="/assets/images/sobre-mim.webp"
+              src="/assets/images/me.jpg"
               alt="Icone psicologia"
               height={256}
               width={256}

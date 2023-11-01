@@ -4,6 +4,8 @@ import 'aos/dist/aos.css';
 
 import AOS from 'aos';
 import { Comfortaa, Dancing_Script, Inter } from 'next/font/google';
+import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 import type { ReactNode } from 'react';
 import { useEffect } from 'react';
 
@@ -41,6 +43,8 @@ const comfortaa = Comfortaa({
 });
 
 const Main = (props: IMainProps) => {
+  const pathname = usePathname();
+
   useEffect(() => {
     AOS.init({
       duration: 800,
@@ -61,7 +65,7 @@ const Main = (props: IMainProps) => {
 
       <Meta title={props.title} description={props.description} />
 
-      {/* {router.route === '/' && (
+      {pathname === '/' && (
         <div
           style={{
             width: '100%',
@@ -70,13 +74,13 @@ const Main = (props: IMainProps) => {
           }}
         >
           <Image
-            alt="Imagem de background"
+            alt="imagem de background"
             src="/assets/images/background-desk.webp"
             layout="fill"
             objectFit="cover"
           />
         </div>
-      )} */}
+      )}
 
       <div className="absolute w-full bg-transparent">
         <Header />
