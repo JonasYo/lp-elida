@@ -1,5 +1,5 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://example.com',
+  siteUrl: 'https://lp-elida.vercel.app',
   generateRobotsTxt: true,
 };
