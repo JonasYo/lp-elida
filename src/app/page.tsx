@@ -2,17 +2,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import Button from '@/components/Button';
-import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
 import { AppConfig } from '@/utils/AppConfig';
 
 const Index = () => {
   return (
-    <Main
-      meta={
-        <Meta title="AppConfig.title" description={AppConfig.description} />
-      }
-    >
+    <Main title="AppConfig.title" description={AppConfig.description}>
       <section className="pt-28" data-aos="fade-up" data-aos-duration="1100">
         <div className="mx-auto md:min-w-[1024px] md:max-w-[1024px]">
           <div className="flex flex-1 justify-center">
@@ -88,16 +83,13 @@ const Index = () => {
             data-aos-duration="1100"
           >
             <p className="mt-0 font-comfortaa">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              Convido você a dar um passo significativo, iniciando uma jornada
+              de psicoterapia! A psicoterapia é uma caminhada compartilhada com
+              um psicólogo, centrada na Psicologia Analítica. Através do
+              diálogo, exploramos seus aspectos conscientes e inconscientes para
+              promover sua saúde mental e autoconhecimento. Entender os
+              "porquês" e "para quês" de sua vida gera transformações. Pronto
+              para começar essa jornada conosco?
             </p>
           </div>
 
@@ -163,15 +155,14 @@ const Index = () => {
             >
               <p className="">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+                industry. Lorem Ipsum has been the standard dummy text ever
+                since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book. It has survived
+                not only five centuries, but also the leap into electronic
+                typesetting, remaining essentially unchanged. It was popularised
+                in the 1960s with the release of Letraset sheets containing
+                Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.
               </p>
             </div>
 
@@ -253,15 +244,14 @@ const Index = () => {
             >
               <p className="">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+                industry. Lorem Ipsum has been the standard dummy text ever
+                since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book. It has survived
+                not only five centuries, but also the leap into electronic
+                typesetting, remaining essentially unchanged. It was popularised
+                in the 1960s with the release of Letraset sheets containing
+                Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.
               </p>
             </div>
           </div>

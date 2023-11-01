@@ -1,14 +1,20 @@
-import { Comfortaa, Dancing_Script, Inter } from 'next/font/google';
-import Image from 'next/image';
-import { useRouter } from 'next/router';
-import type { ReactNode } from 'react';
+'use client';
 
+import 'aos/dist/aos.css';
+
+import AOS from 'aos';
+import { Comfortaa, Dancing_Script, Inter } from 'next/font/google';
+import type { ReactNode } from 'react';
+import { useEffect } from 'react';
+
+import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import ScrollToTop from '@/components/ScrollToTop';
-import { AppConfig } from '@/utils/AppConfig';
+import Meta from '@/templates/Meta';
 
 type IMainProps = {
-  meta?: ReactNode;
+  title: string;
+  description: string;
   children: ReactNode;
 };
 
@@ -35,15 +41,27 @@ const comfortaa = Comfortaa({
 });
 
 const Main = (props: IMainProps) => {
-  const router = useRouter();
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: false,
+    });
+    window.addEventListener(
+      'touchmove',
+      () => {
+        AOS.refresh();
+      },
+      false,
+    );
+  }, []);
 
   return (
     <div className="relative flex w-full flex-col items-center px-1 antialiased">
       <ScrollToTop />
 
-      {props.meta}
+      <Meta title={props.title} description={props.description} />
 
-      {router.route === '/' && (
+      {/* {router.route === '/' && (
         <div
           style={{
             width: '100%',
@@ -58,7 +76,7 @@ const Main = (props: IMainProps) => {
             objectFit="cover"
           />
         </div>
-      )}
+      )} */}
 
       <div className="absolute w-full bg-transparent">
         <Header />
@@ -69,14 +87,7 @@ const Main = (props: IMainProps) => {
           {props.children}
         </main>
 
-        <footer className="border-t border-gray-300 py-8 text-center text-sm">
-          © Copyright {new Date().getFullYear()} {AppConfig.title}. <br />
-          <br /> Made by{' '}
-          <a href="https://lp-portfolio-frontend-cvtmosbr9-jonasyo.vercel.app/">
-            Jonas Marcelino
-          </a>
-          .
-        </footer>
+        <Footer />
       </div>
     </div>
   );

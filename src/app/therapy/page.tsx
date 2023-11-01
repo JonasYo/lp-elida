@@ -1,11 +1,10 @@
 import Image from 'next/image';
 
-import Button from '@/components/Button';
-import { Meta } from '@/layouts/Meta';
+import Button from '@/components/Button/Button';
 import { Main } from '@/templates/Main';
 
-const About = () => (
-  <Main meta={<Meta title="Lorem ipsum" description="Lorem ipsum" />}>
+const Therapy = () => (
+  <Main title="Lorem ipsum" description="Lorem ipsum">
     <section className="bg-white">
       <div className="mx-auto px-4 md:min-w-[1024px] md:max-w-[1024px]">
         <div className="relative mx-auto mt-8 h-10 w-full md:w-2/6">
@@ -23,7 +22,7 @@ const About = () => (
           data-aos-duration="1100"
         >
           <h2 className="whitespace-nowrap font-dancing text-2xl font-bold md:text-4xl">
-            Um pouquinho sobre mim
+            O que é a Psicoterapia?
           </h2>
 
           <div className="ml-8 h-0 w-full border-b border-neutral-950" />
@@ -36,23 +35,23 @@ const About = () => (
         >
           <p className="mt-0 font-comfortaa">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
+            industry. Lorem Ipsum has been the standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only
+            five centuries, but also the leap into electronic typesetting,
             remaining essentially unchanged. It was popularised in the 1960s
             with the release of Letraset sheets containing Lorem Ipsum passages,
             and more recently with desktop publishing software like Aldus
             PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply
             dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
-            an unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries, but
-            also the leap into electronic typesetting, remaining essentially
-            unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing Lorem Ipsum passages, and more recently
-            with desktop publishing software like Aldus PageMaker including
-            versions of Lorem Ipsum.
+            been the standard dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries, but also the
+            leap into electronic typesetting, remaining essentially unchanged.
+            It was popularised in the 1960s with the release of Letraset sheets
+            containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem
+            Ipsum.
           </p>
         </div>
 
@@ -75,7 +74,7 @@ const About = () => (
           data-aos-duration="1100"
         >
           <h2 className="whitespace-nowrap font-dancing text-2xl font-bold md:text-4xl">
-            Minha formação
+            Sessões
           </h2>
 
           <div className="ml-8 h-0 w-full border-b border-neutral-950" />
@@ -88,23 +87,23 @@ const About = () => (
         >
           <p className="mt-0 font-comfortaa">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
+            industry. Lorem Ipsum has been the standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only
+            five centuries, but also the leap into electronic typesetting,
             remaining essentially unchanged. It was popularised in the 1960s
             with the release of Letraset sheets containing Lorem Ipsum passages,
             and more recently with desktop publishing software like Aldus
             PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply
             dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
-            an unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries, but
-            also the leap into electronic typesetting, remaining essentially
-            unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing Lorem Ipsum passages, and more recently
-            with desktop publishing software like Aldus PageMaker including
-            versions of Lorem Ipsum.
+            been the standard dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries, but also the
+            leap into electronic typesetting, remaining essentially unchanged.
+            It was popularised in the 1960s with the release of Letraset sheets
+            containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem
+            Ipsum.
           </p>
         </div>
 
@@ -144,4 +143,4 @@ const About = () => (
   </Main>
 );
 
-export default About;
+export default Therapy;
