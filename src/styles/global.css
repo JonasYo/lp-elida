@@ -10,9 +10,17 @@ a:hover {
   @apply border-b-2 border-blue-700;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 html {
   line-height: normal;
 }
+
+/* body, html{
+  height: 100%;
+} */
  
 .content ul {
   @apply my-6;

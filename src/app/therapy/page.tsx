@@ -7,7 +7,7 @@ const Therapy = () => (
   <Main title="Lorem ipsum" description="Lorem ipsum">
     <section className="bg-white">
       <div className="mx-auto px-4 md:min-w-[1024px] md:max-w-[1024px]">
-        <div className="relative mx-auto mt-8 h-10 w-full md:w-2/6">
+        <div className="relative mx-auto mt-8 inline-block h-10 w-full md:w-2/6">
           <Image
             className="px-4"
             src="/assets/images/divider-one.webp"

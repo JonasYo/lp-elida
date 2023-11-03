@@ -17,6 +17,7 @@ import Meta from '@/templates/Meta';
 type IMainProps = {
   title: string;
   description: string;
+  showOnlyChildren?: boolean;
   children: ReactNode;
 };
 
@@ -46,26 +47,16 @@ const Main = (props: IMainProps) => {
   const pathname = usePathname();
 
   useEffect(() => {
-    AOS.init({
-      duration: 800,
-      once: false,
-    });
-    window.addEventListener(
-      'touchmove',
-      () => {
-        AOS.refresh();
-      },
-      false,
-    );
+    AOS.init();
   }, []);
 
   return (
     <div className="relative flex w-full flex-col items-center px-1 antialiased">
-      <ScrollToTop />
+      {!props?.showOnlyChildren && <ScrollToTop />}
 
       <Meta title={props.title} description={props.description} />
 
-      {pathname === '/' && (
+      {!props?.showOnlyChildren && pathname === '/' && (
         <div
           style={{
             width: '100%',
@@ -75,23 +66,41 @@ const Main = (props: IMainProps) => {
         >
           <Image
             alt="imagem de background"
+            src="/assets/images/background-mobile.webp"
+            layout="fill"
+            objectFit="cover"
+            className="flex md:hidden"
+          />
+
+          <Image
+            alt="imagem de background"
+            src="/assets/images/background-tablet.webp"
+            layout="fill"
+            objectFit="cover"
+            className="hidden md:flex lg:hidden"
+          />
+
+          <Image
+            alt="imagem de background"
             src="/assets/images/background-desk.webp"
             layout="fill"
             objectFit="cover"
+            className="hidden lg:flex"
           />
         </div>
       )}
 
       <div className="absolute w-full bg-transparent">
-        <Header />
+        {!props?.showOnlyChildren && <Header />}
 
         <main
+          style={{ contain: 'paint' }}
           className={`${inter.variable} ${dancingScript.variable} ${comfortaa.variable} content text-xl`}
         >
           {props.children}
         </main>
 
-        <Footer />
+        {!props?.showOnlyChildren && <Footer />}
       </div>
     </div>
   );

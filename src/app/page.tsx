@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 
 import Button from '@/components/Button';
 import { Main } from '@/templates/Main';
@@ -24,7 +23,7 @@ const Index = () => {
               Elida Siqueira Marcelino
             </h2>
 
-            <div className="flex items-center justify-center">
+            <div className="mb-4 flex items-center justify-center">
               <div className="h-0 w-16 border-b border-neutral-950 md:w-52" />
 
               <div className="mx-auto flex flex-col justify-center font-inter md:mx-12">
@@ -103,7 +102,7 @@ const Index = () => {
               Atendimento <b>Online;</b>
             </p>
 
-            <p className="mx-auto mt-2 text-center font-comfortaa text-lg">
+            <p className="mx-auto mb-4 mt-2 text-center font-comfortaa text-lg">
               <span className="mr-2 font-bold">⤷</span>
               Atendimento a <b>Adolescentes, Adultos e Idosos;</b>
             </p>
@@ -194,12 +193,12 @@ const Index = () => {
             data-aos="fade-up"
             data-aos-duration="1100"
           >
-            <Link
-              className="group mx-auto inline-flex h-11 w-96 max-w-2xl items-center justify-center rounded-full bg-green-100 px-4 py-2 text-base font-semibold tracking-tight text-slate-700 hover:bg-slate-700 hover:text-slate-100 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-900 active:bg-slate-800 active:text-slate-300"
-              href="/about"
-            >
-              Conheça um pouco mais
-            </Link>
+            <Button
+              content={{
+                title: 'Conheça um pouco mais',
+                link: '/about',
+              }}
+            />
           </div>
 
           <div className="relative mx-auto mt-8 h-10 w-full md:w-4/6">
