@@ -20,7 +20,7 @@ const Index = () => {
 
           <div className="mt-10 flex flex-1 flex-col justify-center px-4 pb-4 md:px-0 md:pb-0">
             <h2 className="mx-auto mb-4 font-dancing text-4xl md:text-6xl">
-              Elida Siqueira Marcelino
+              Élida Siqueira
             </h2>
 
             <div className="mb-4 flex items-center justify-center">
@@ -153,15 +153,16 @@ const Index = () => {
               data-aos-duration="1100"
             >
               <p className="">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the standard dummy text ever
-                since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book. It has survived
-                not only five centuries, but also the leap into electronic
-                typesetting, remaining essentially unchanged. It was popularised
-                in the 1960s with the release of Letraset sheets containing
-                Lorem Ipsum passages, and more recently with desktop publishing
-                software like Aldus PageMaker including versions of Lorem Ipsum.
+                Olá! Sou Élida Siqueira, sou psicóloga clínica CRP 08/3883,
+                formada pela Universidade Unibrasil de Curitiba e pós graduanda
+                em Terapia Cognitivo Comportamental. Realizo atendimentos de
+                adultos e adolescentes maiores de 16 anos. Meu principal
+                objetivo é proporcionar um tratamento que se adeque às demandas
+                de cada indivíduo, utilizando-se das melhores intervenções
+                disponíveis na área da Psicologia. Minha abordagem teórica é a
+                Terapia Cognitivo Comportamental, é indicada para tratar
+                diversos transtornos mentais, sendo uma abordagem clara, direta
+                e eficiente.
               </p>
             </div>
 
@@ -242,15 +243,12 @@ const Index = () => {
               data-aos-duration="1100"
             >
               <p className="">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the standard dummy text ever
-                since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book. It has survived
-                not only five centuries, but also the leap into electronic
-                typesetting, remaining essentially unchanged. It was popularised
-                in the 1960s with the release of Letraset sheets containing
-                Lorem Ipsum passages, and more recently with desktop publishing
-                software like Aldus PageMaker including versions of Lorem Ipsum.
+                Meu trabalho hoje é feito de maneira remota, online, é
+                semelhante ao presencial e tem a mesma duração. Os encontros são
+                feitos por chamada de vídeo pelas plataformas Google Meet, Zoom
+                e WhatsApp. É importante ressaltar que o profissional atende em
+                um lugar privado, garantindo o sigilo e seguindo o código de
+                ética da psicologia.
               </p>
             </div>
           </div>

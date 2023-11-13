@@ -34,24 +34,15 @@ const Therapy = () => (
           data-aos-duration="1100"
         >
           <p className="mt-0 font-comfortaa">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the standard dummy text ever since
-            the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only
-            five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the standard dummy text ever since the 1500s, when an unknown
-            printer took a galley of type and scrambled it to make a type
-            specimen book. It has survived not only five centuries, but also the
-            leap into electronic typesetting, remaining essentially unchanged.
-            It was popularised in the 1960s with the release of Letraset sheets
-            containing Lorem Ipsum passages, and more recently with desktop
-            publishing software like Aldus PageMaker including versions of Lorem
-            Ipsum.
+            A psicoterapia é um processo que proporciona ao paciente a adquirir
+            consciência sobre seus próprios atos. É algo que precisa ser feito
+            em médio a longo prazo, dessa forma, ele terá tempo para explorar
+            totalmente a sua insegurança, dor, emoção ou experiência e
+            compreender a situação. Assim, o paciente tem a oportunidade de
+            resolver conflitos internos, desenvolver um melhor relacionamento
+            consigo mesmo e com quem está ao seu redor. Ao mesmo tempo
+            desenvolve o autoamor, a responsabilidade por seus atos,
+            amadurecimento e autoconhecimento.
           </p>
         </div>
 
@@ -74,7 +65,7 @@ const Therapy = () => (
           data-aos-duration="1100"
         >
           <h2 className="whitespace-nowrap font-dancing text-2xl font-bold md:text-4xl">
-            Sessões
+            A Terapia Cognitivo Comportamental
           </h2>
 
           <div className="ml-8 h-0 w-full border-b border-neutral-950" />
@@ -86,24 +77,12 @@ const Therapy = () => (
           data-aos-duration="1100"
         >
           <p className="mt-0 font-comfortaa">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the standard dummy text ever since
-            the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only
-            five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the standard dummy text ever since the 1500s, when an unknown
-            printer took a galley of type and scrambled it to make a type
-            specimen book. It has survived not only five centuries, but also the
-            leap into electronic typesetting, remaining essentially unchanged.
-            It was popularised in the 1960s with the release of Letraset sheets
-            containing Lorem Ipsum passages, and more recently with desktop
-            publishing software like Aldus PageMaker including versions of Lorem
-            Ipsum.
+            A Terapia Cognitivo Comportamental ou TCC é uma abordagem da
+            psicoterapia baseada na combinação de conceitos e teorias
+            científicas, visando identificar padrões de comportamento,
+            pensamento, crenças e hábitos que estão desencadeando a origem dos
+            transtornos emocionais, indicando através de técnicas
+            comportamentais, para alterar essas percepções de forma positiva.
           </p>
         </div>
 

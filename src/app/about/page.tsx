@@ -34,24 +34,15 @@ const About = () => (
           data-aos-duration="1100"
         >
           <p className="mt-0 font-comfortaa">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the standard dummy text ever since
-            the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only
-            five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the standard dummy text ever since the 1500s, when an unknown
-            printer took a galley of type and scrambled it to make a type
-            specimen book. It has survived not only five centuries, but also the
-            leap into electronic typesetting, remaining essentially unchanged.
-            It was popularised in the 1960s with the release of Letraset sheets
-            containing Lorem Ipsum passages, and more recently with desktop
-            publishing software like Aldus PageMaker including versions of Lorem
-            Ipsum.
+            Sou psicóloga clínica CRP 08/3883, formada pela Universidade
+            Unibrasil de Curitiba e pós graduanda em Terapia Cognitivo
+            Comportamental. Realizo atendimentos de adultos e adolescentes
+            maiores de 16 anos. Meu principal objetivo é proporcionar um
+            tratamento que se adeque às demandas de cada indivíduo,
+            utilizando-se das melhores intervenções disponíveis na área da
+            Psicologia. Minha abordagem teórica é a Terapia Cognitivo
+            Comportamental, é indicada para tratar diversos transtornos mentais,
+            sendo uma abordagem clara, direta e eficiente.
           </p>
         </div>
 
@@ -59,58 +50,6 @@ const About = () => (
           <Image
             className="px-4"
             src="/assets/images/divider-two.webp"
-            alt="Icone de divisão de seção"
-            fill
-          />
-        </div>
-      </div>
-    </section>
-
-    <section className="bg-white pb-8">
-      <div className="mx-auto px-4 md:min-w-[1024px] md:max-w-[1024px]">
-        <div
-          className="flex flex-1 items-center pt-10"
-          data-aos="fade-right"
-          data-aos-duration="1100"
-        >
-          <h2 className="whitespace-nowrap font-dancing text-2xl font-bold md:text-4xl">
-            Minha formação
-          </h2>
-
-          <div className="ml-8 h-0 w-full border-b border-neutral-950" />
-        </div>
-
-        <div
-          className="mt-10 rounded-bl-3xl rounded-tr-3xl bg-pink-100 p-4 font-comfortaa"
-          data-aos="fade-right"
-          data-aos-duration="1100"
-        >
-          <p className="mt-0 font-comfortaa">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the standard dummy text ever since
-            the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only
-            five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the standard dummy text ever since the 1500s, when an unknown
-            printer took a galley of type and scrambled it to make a type
-            specimen book. It has survived not only five centuries, but also the
-            leap into electronic typesetting, remaining essentially unchanged.
-            It was popularised in the 1960s with the release of Letraset sheets
-            containing Lorem Ipsum passages, and more recently with desktop
-            publishing software like Aldus PageMaker including versions of Lorem
-            Ipsum.
-          </p>
-        </div>
-
-        <div className="relative mx-auto mt-8 h-10 w-full md:w-3/6">
-          <Image
-            className="px-4"
-            src="/assets/images/divider-one.webp"
             alt="Icone de divisão de seção"
             fill
           />

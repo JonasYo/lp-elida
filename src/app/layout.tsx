@@ -5,11 +5,11 @@ import { Analytics } from '@vercel/analytics/react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://lp-elida.vercel.app/'),
-  title: 'Elida Siqueira Marcelino | Psicologa',
+  metadataBase: new URL('https://elida.vercel.app'),
+  title: 'Élida Siqueira | Psicóloga',
   themeColor: '#000',
   description:
-    'Eu sou Elida, uma psicóloga dedicada a ajudar você a encontrar equilíbrio, resiliência e bem-estar. Com uma abordagem compassiva e profissional, estou aqui para guiá-lo em sua jornada de autodescoberta e crescimento pessoal.',
+    'Psi Élida Siqueira. Te convido a dar esse importante passo, o de iniciar um processo psicoterapêutico! Atendimentos online.',
   icons: [
     {
       rel: 'apple-touch-icon',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
       url: '/favicon.ico',
     },
   ],
-  applicationName: 'Elida Siqueira Marcelino | Psicologa',
+  applicationName: 'Élida Siqueira | Psicóloga',
   appleWebApp: {
     statusBarStyle: 'black',
   },
@@ -41,19 +41,19 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://lp-elida.vercel.app/',
-    title: 'Elida Siqueira Marcelino | Psicologa',
+    title: 'Élida Siqueira | Psicóloga',
     description:
-      'Eu sou Elida, uma psicóloga dedicada a ajudar você a encontrar equilíbrio, resiliência e bem-estar. Com uma abordagem compassiva e profissional, estou aqui para guiá-lo em sua jornada de autodescoberta e crescimento pessoal.',
+      'Psi Élida Siqueira. Te convido a dar esse importante passo, o de iniciar um processo psicoterapêutico! Atendimentos online.',
     images: '/assets/images/me.jpg',
   },
   twitter: {
     card: 'summary_large_image',
     site: 'https://lp-elida.vercel.app/',
     creator: '@',
-    title: 'Elida Siqueira Marcelino | Psicologa',
+    title: 'Élida Siqueira | Psicóloga',
     images: '/assets/images/me.jpg',
     description:
-      'Eu sou Elida, uma psicóloga dedicada a ajudar você a encontrar equilíbrio, resiliência e bem-estar. Com uma abordagem compassiva e profissional, estou aqui para guiá-lo em sua jornada de autodescoberta e crescimento pessoal.',
+      'Psi Élida Siqueira. Te convido a dar esse importante passo, o de iniciar um processo psicoterapêutico! Atendimentos online.',
   },
 };
 
@@ -64,10 +64,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      {/* <head>
-        <title>Next.js</title>
-      </head> */}
-
       <body>{children}</body>
 
       <Analytics />
