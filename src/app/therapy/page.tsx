@@ -105,7 +105,7 @@ const Therapy = () => (
       >
         <div className="flex flex-row items-center justify-center">
           <h2 className="mx-auto font-dancing text-4xl md:text-xl">
-            (41) 9 9939 - 1388
+            (41) 9 8756-6809
           </h2>
         </div>
 
@@ -113,7 +113,7 @@ const Therapy = () => (
           <Button
             content={{
               title: 'Entre em contato',
-              link: 'https://api.whatsapp.com/send?phone=5541999391388',
+              link: 'https://api.whatsapp.com/send?phone=5541987566809',
             }}
           />
         </div>
