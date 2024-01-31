@@ -73,7 +73,7 @@ const About = () => (
           <Button
             content={{
               title: 'Entre em contato',
-              link: 'https://api.whatsapp.com/send?phone=5541987566809',
+              link: 'https://api.whatsapp.com/send?phone=5541987566809&text=Olá,%20boa%20tarde!%20Estou%20interessado(a)%20em%20obter%20mais%20informações%20sobre%20o%20seu%20processo%20psicoterapêutico.%20Pode%20me%20fornecer%20mais%20detalhes?',
             }}
           />
         </div>
