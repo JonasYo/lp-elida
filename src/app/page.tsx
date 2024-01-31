@@ -13,8 +13,10 @@ const Index = () => {
             <Image
               alt="Icone psicologia"
               src="/assets/images/icone-psicologia.png"
-              width={256}
-              height={256}
+              width={247}
+              height={247}
+              quality={100}
+              unoptimized
             />
           </div>
 
@@ -131,12 +133,11 @@ const Index = () => {
       </section>
 
       <section className="bg-white">
-        <div className="mx-auto px-4 md:min-w-[1024px] md:max-w-[1024px]">
-          <div
-            className="flex flex-row items-center justify-center pt-10"
-            data-aos="fade-up"
-            data-aos-duration="1100"
-          >
+        <div
+          className="mx-auto px-4 md:min-w-[1024px] md:max-w-[1024px]"
+          data-aos="fade-up"
+        >
+          <div className="flex flex-row items-center justify-center pt-10">
             <div className="h-0 w-16 border-b border-neutral-950 md:w-52" />
 
             <h2 className="mx-auto font-dancing text-4xl md:text-6xl">
@@ -147,11 +148,7 @@ const Index = () => {
           </div>
 
           <div className="flex flex-col items-center md:flex-row">
-            <div
-              className="mt-10 rounded-bl-3xl rounded-tr-3xl bg-pink-100 p-4 font-comfortaa md:mr-16"
-              data-aos="fade-right"
-              data-aos-duration="1100"
-            >
+            <div className="mt-10 rounded-bl-3xl rounded-tr-3xl bg-pink-100 p-4 font-comfortaa md:mr-16">
               <p className="">
                 Olá! Sou Élida Siqueira, sou psicóloga clínica CRP 08/3883,
                 formada pela Universidade Unibrasil de Curitiba e pós graduanda
@@ -166,11 +163,7 @@ const Index = () => {
               </p>
             </div>
 
-            <div
-              className="my-6 flex-1 flex-col justify-center md:hidden"
-              data-aos="fade-up"
-              data-aos-duration="1100"
-            >
+            <div className="my-6 flex-1 flex-col justify-center md:hidden">
               <Button
                 content={{
                   title: 'Conheça um pouco mais',
@@ -184,16 +177,10 @@ const Index = () => {
               alt="Icone psicologia"
               height={256}
               width={256}
-              data-aos="fade-left"
-              data-aos-duration="1100"
             />
           </div>
 
-          <div
-            className="mt-6 hidden flex-1 flex-col justify-center md:flex"
-            data-aos="fade-up"
-            data-aos-duration="1100"
-          >
+          <div className="mt-6 hidden flex-1 flex-col justify-center md:flex">
             <Button
               content={{
                 title: 'Conheça um pouco mais',
@@ -214,10 +201,12 @@ const Index = () => {
       </section>
 
       <section className="bg-white pb-8">
-        <div className="mx-auto px-4 md:min-w-[1024px] md:max-w-[1024px]">
+        <div
+          className="mx-auto px-4 md:min-w-[1024px] md:max-w-[1024px]"
+          data-aos="fade-up"
+        >
           <div
             className="flex flex-row items-center justify-center pt-10"
-            data-aos="fade-up"
             data-aos-duration="1100"
           >
             <div className="h-0 w-16 border-b border-neutral-950 md:w-52" />
@@ -233,13 +222,11 @@ const Index = () => {
               alt="Icone psicologia"
               height={256}
               width={256}
-              data-aos="fade-right"
               data-aos-duration="1100"
             />
 
             <div
               className="mt-10 rounded-bl-3xl rounded-tr-3xl bg-pink-100 p-4 font-comfortaa md:ml-16"
-              data-aos="fade-left"
               data-aos-duration="1100"
             >
               <p className="">
@@ -267,13 +254,11 @@ const Index = () => {
       <section className="bg-pink-100">
         <div
           className="mx-auto p-4 md:min-w-[1024px] md:max-w-[1024px]"
-          data-aos="fade-left"
+          data-aos="fade-in"
           data-aos-duration="1100"
         >
           <div className="flex flex-row items-center justify-center">
-            <h2 className="mx-auto font-dancing text-4xl md:text-xl">
-              (41) 9 8756-6809
-            </h2>
+            <h2 className="mx-auto text-4xl md:text-xl">(41) 9 8756-6809</h2>
           </div>
 
           <div className="mt-4 hidden flex-1 flex-col justify-center md:flex">

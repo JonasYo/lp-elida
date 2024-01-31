@@ -18,16 +18,31 @@ const Header = () => {
   return (
     <header style={{ backgroundColor: 'rgba(255, 255, 255, 0.5' }}>
       <nav className="border-gray-200 px-4 py-2.5 lg:px-6">
-        <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between">
-          <Link href="/" className="flex items-center">
-            <span
-              className={`${dancingScript.className} text-3xl font-bold text-black`}
-            >
-              {AppConfig.title}
-            </span>
-          </Link>
+        <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between md:min-w-[1024px] md:max-w-[1024px]">
+          <div className="flex">
+            <div className="flex flex-row pr-4">
+              <Image
+                alt="Icone psicologia"
+                src="/assets/images/icone-psicologia.png"
+                width={40}
+                height={40}
+                quality={100}
+              />
+            </div>
 
-          <div className="flex items-center lg:order-2">
+            <Link
+              href="/"
+              className="border-none text-black hover:text-gray-900"
+            >
+              <span
+                className={`${dancingScript.className} font-dancing text-3xl font-bold text-black`}
+              >
+                {AppConfig.title}
+              </span>
+            </Link>
+          </div>
+
+          <div className="flex items-center md:hidden lg:order-2">
             <button
               type="button"
               className="ml-1 inline-flex items-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden"
